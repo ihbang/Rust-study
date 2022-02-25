@@ -1,6 +1,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode,rust
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,visualstudiocode,rust
 
+# To ignore extension-less files
+*
+!*/
+!*.*
+
 ### Linux ###
 *~
 
@@ -33,11 +38,7 @@ Cargo.lock
 *.pdb
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode
 *.code-workspace
 
 # Local History for Visual Studio Code
